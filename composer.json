@@ -20,7 +20,7 @@
   },
   "extra": {
     "zf": {
-      "config-provider": "DevopsToolDrupalPlatformSupport\\ConfigProvider",
+      "config-provider": "DevopsToolDrupalPlatformSupport\\ConfigProvider"
     }
   }
 }
