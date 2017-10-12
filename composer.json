@@ -17,5 +17,10 @@
     "psr-4": {
       "DevopsToolDrupalPlatformSupport\\": "src/"
     }
+  },
+  "extra": {
+    "zf": {
+      "config-provider": "DevopsToolDrupalPlatformSupport\\ConfigProvider",
+    }
   }
 }
