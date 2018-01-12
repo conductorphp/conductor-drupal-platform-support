@@ -1,6 +1,9 @@
 DevOps Tool: Drupal Platform Support Changelog
 ==============================================
 
+# 0.2.0 (Unreleased)
+- Updated PHP version requirement to 7.1
+
 # 0.1.1 (Unreleased)
 - Added zf config-provider Composer setting
 
