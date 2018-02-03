@@ -22,7 +22,16 @@ class ConfigProvider
                     'drupal' => $this->getPlatformConfig(),
                 ],
             ],
+            'dependencies' => $this->getDependencyConfig(),
         ];
+    }
+
+    /**
+     * @return array
+     */
+    private function getDependencyConfig(): array
+    {
+        return require(__DIR__ . '/../config/dependencies.php');
     }
 
     /**
@@ -37,5 +46,6 @@ class ConfigProvider
             Yaml::parse(file_get_contents(__DIR__ . '/../config/platform.yaml'))
         );
     }
+
 
 }
