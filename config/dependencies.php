@@ -3,7 +3,7 @@
 namespace DevopsToolDrupalPlatformSupport;
 
 return [
-    'invokables' => [
-        \DevopsToolAppOrchestration\MaintenanceStrategy\MaintenanceStrategyInterface::class => AppMaintenanceStrategy::class,
-    ]
+    'factories' => [
+        \DevopsToolAppOrchestration\MaintenanceStrategy\MaintenanceStrategyInterface::class => AppMaintenanceStrategyFactory::class,
+    ],
 ];
