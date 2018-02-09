@@ -2,8 +2,6 @@
 
 namespace DevopsToolDrupalPlatformSupport;
 
-use Symfony\Component\Yaml\Yaml;
-
 class ConfigProvider
 {
     /**
@@ -22,7 +20,7 @@ class ConfigProvider
                     'drupal' => $this->getPlatformConfig(),
                 ],
             ],
-            'dependencies' => $this->getDependencyConfig(),
+            'dependencies'              => $this->getDependencyConfig(),
         ];
     }
 
@@ -43,9 +41,8 @@ class ConfigProvider
             [
                 'source_file_path' => dirname(__DIR__) . '/files',
             ],
-            Yaml::parse(file_get_contents(__DIR__ . '/../config/platform.yaml'))
+            include __DIR__ . '/../config/platform.php'
         );
     }
-
 
 }
