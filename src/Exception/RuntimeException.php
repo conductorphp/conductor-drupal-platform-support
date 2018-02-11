@@ -1,6 +1,6 @@
 <?php
 
-namespace DevopsToolDrupalPlatformSupport\Exception;
+namespace ConductorDrupalPlatformSupport\Exception;
 
 class RuntimeException extends \RuntimeException implements ExceptionInterface
 {

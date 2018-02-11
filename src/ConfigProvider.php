@@ -1,6 +1,6 @@
 <?php
 
-namespace DevopsToolDrupalPlatformSupport;
+namespace ConductorDrupalPlatformSupport;
 
 class ConfigProvider
 {

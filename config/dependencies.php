@@ -1,9 +1,9 @@
 <?php
 
-namespace DevopsToolDrupalPlatformSupport;
+namespace ConductorDrupalPlatformSupport;
 
 return [
     'factories' => [
-        \DevopsToolAppOrchestration\MaintenanceStrategy\MaintenanceStrategyInterface::class => AppMaintenanceStrategyFactory::class,
+        \ConductorAppOrchestration\MaintenanceStrategy\MaintenanceStrategyInterface::class => AppMaintenanceStrategyFactory::class,
     ],
 ];
