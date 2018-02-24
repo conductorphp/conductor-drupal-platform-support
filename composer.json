@@ -1,6 +1,6 @@
 {
     "name": "conductor/drupal-platform-support",
-    "description": "Conductor: Drupal Application Support",
+    "description": "Conductor: Drupal Platform Support",
     "type": "library",
     "homepage": "https://github.com/conductorphp/conductor-drupal-platform-support",
     "license": "Apache 2.0",
@@ -40,7 +40,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ConductorMagento2PlatformSupportTest\\": "test/"
+            "ConductorDrupalPlatformSupportTest\\": "test/"
         }
     },
     "extra": {
