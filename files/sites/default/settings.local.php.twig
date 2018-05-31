@@ -1,3 +1,4 @@
+{% autoescape false %}
 <?php
 /**
  * @file
@@ -123,3 +124,4 @@ if (file_exists(__DIR__ . '/settings.custom.php')) {
     include __DIR__ . '/settings.custom.php';
 }
 {% endif %}
+{% endautoescape %}
