@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.1",
-        "conductor/application-orchestration": "~0.9.3",
+        "conductor/application-orchestration": "dev-release-1.0.0",
         "zendframework/zend-servicemanager": "^3.3"
     },
     "require-dev": {
