@@ -1,9 +1,9 @@
 <?php
 
-namespace ConductorDrupalPlatformSupport;
+namespace ConductorDrupalPlatformSupport\Maintenance;
 
-use ConductorAppOrchestration\ApplicationConfig;
-use ConductorAppOrchestration\MaintenanceStrategy\MaintenanceStrategyInterface;
+use ConductorAppOrchestration\Config\ApplicationConfig;
+use ConductorAppOrchestration\Maintenance\MaintenanceStrategyInterface;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;
 

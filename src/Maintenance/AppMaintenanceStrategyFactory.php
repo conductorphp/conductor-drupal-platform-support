@@ -1,7 +1,8 @@
 <?php
 
-namespace ConductorDrupalPlatformSupport;
+namespace ConductorDrupalPlatformSupport\Maintenance;
 
+use ConductorAppOrchestration\Config\ApplicationConfig;
 use Interop\Container\ContainerInterface;
 use Interop\Container\Exception\ContainerException;
 use Zend\ServiceManager\Exception\ServiceNotCreatedException;
@@ -26,7 +27,7 @@ class AppMaintenanceStrategyFactory implements FactoryInterface
      */
     public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
     {
-        $applicationConfig = $container->get('ConductorAppOrchestration\ApplicationConfig');
+        $applicationConfig = $container->get(ApplicationConfig::class);
         return new AppMaintenanceStrategy($applicationConfig);
     }
 

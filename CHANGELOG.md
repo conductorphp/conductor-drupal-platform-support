@@ -1,6 +1,9 @@
 Conductor: Drupal Platform Support Changelog
 ==============================================
 
+# 0.9.2
+- Fixed naming conventions to match latest 0.9 conductor/application-orchestration
+
 # 0.9.1
 - Updated to require conductor/application-orchestration:~0.9.3 instead of dev-master
 
