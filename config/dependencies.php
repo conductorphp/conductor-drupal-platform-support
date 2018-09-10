@@ -4,6 +4,6 @@ namespace ConductorDrupalPlatformSupport;
 
 return [
     'factories' => [
-        \ConductorAppOrchestration\MaintenanceStrategy\MaintenanceStrategyInterface::class => AppMaintenanceStrategyFactory::class,
+        \ConductorAppOrchestration\Maintenance\MaintenanceStrategyInterface::class => AppMaintenanceStrategyFactory::class,
     ],
 ];
