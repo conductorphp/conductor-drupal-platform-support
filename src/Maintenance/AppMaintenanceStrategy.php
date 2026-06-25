@@ -34,7 +34,7 @@ class AppMaintenanceStrategy implements MaintenanceStrategyInterface, LoggerAwar
     /**
      * @param string|null       $branch
      */
-    public function enable(string $branch = null): void
+    public function enable(?string $branch = null): void
     {
         // TODO: Implement enable() method.
         throw new \LogicException(__METHOD__ . ' not yet implemented.');
@@ -43,7 +43,7 @@ class AppMaintenanceStrategy implements MaintenanceStrategyInterface, LoggerAwar
     /**
      * @param string|null       $branch
      */
-    public function disable(string $branch = null): void
+    public function disable(?string $branch = null): void
     {
         // TODO: Implement disable() method.
         throw new \LogicException(__METHOD__ . ' not yet implemented.');
@@ -54,7 +54,7 @@ class AppMaintenanceStrategy implements MaintenanceStrategyInterface, LoggerAwar
      *
      * @return bool
      */
-    public function isEnabled(string $branch = null): bool
+    public function isEnabled(?string $branch = null): bool
     {
         // TODO: Implement isEnabled() method.
         throw new \LogicException(__METHOD__ . ' not yet implemented.');

@@ -5,9 +5,9 @@ namespace ConductorDrupalPlatformSupport\Maintenance;
 use ConductorAppOrchestration\Config\ApplicationConfig;
 use Interop\Container\ContainerInterface;
 use Interop\Container\Exception\ContainerException;
-use Zend\ServiceManager\Exception\ServiceNotCreatedException;
-use Zend\ServiceManager\Exception\ServiceNotFoundException;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Exception\ServiceNotCreatedException;
+use Laminas\ServiceManager\Exception\ServiceNotFoundException;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 class AppMaintenanceStrategyFactory implements FactoryInterface
 {
@@ -25,7 +25,7 @@ class AppMaintenanceStrategyFactory implements FactoryInterface
      *     creating a service.
      * @throws ContainerException if any other error occurs
      */
-    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
+    public function __invoke(ContainerInterface $container, $requestedName, ?array $options = null)
     {
         $applicationConfig = $container->get(ApplicationConfig::class);
         return new AppMaintenanceStrategy($applicationConfig);
