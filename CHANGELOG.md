@@ -1,3 +1,10 @@
+[3.0.0](https://github.com/conductorphp/conductor-drupal-platform-support/compare/2.0.0...3.0.0) (2026-06-26)
+
+### Bug Fixes
+* conductor 2.0 (CTAP-776) ([6ad7582](https://github.com/conductorphp/conductor-drupal-platform-support/commit/6ad75828af9b37aa3309f3b9a9fb17c5bd663ee1))
+
+<!--- CHANGELOG SPLIT MARKER -->
+
 [1.0.1](https://github.com/conductorphp/conductor-drupal-platform-support/compare/1.0.0...1.0.1) (2026-06-25)
 
 ### Bug Fixes
