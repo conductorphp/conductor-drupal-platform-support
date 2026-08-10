@@ -1,3 +1,18 @@
+[4.1.0](https://github.com/conductorphp/conductor-drupal-platform-support/compare/4.0.0...4.1.0) (2026-08-10)
+
+### Features
+* PHP 8.4.1+ (CTAP-1224) ([0a4af52](https://github.com/conductorphp/conductor-drupal-platform-support/commit/0a4af52b30990ee2dd398d88fce4d8f9f2b94683))
+* laminas-servicemanager v4 (CTAP-1221) ([bc0202a](https://github.com/conductorphp/conductor-drupal-platform-support/commit/bc0202ae49085a768125a743b9842d30ea4d451f))
+
+<!--- CHANGELOG SPLIT MARKER -->
+
+[3.0.0](https://github.com/conductorphp/conductor-drupal-platform-support/compare/2.0.0...3.0.0) (2026-06-26)
+
+### Bug Fixes
+* conductor 2.0 (CTAP-776) ([6ad7582](https://github.com/conductorphp/conductor-drupal-platform-support/commit/6ad75828af9b37aa3309f3b9a9fb17c5bd663ee1))
+
+<!--- CHANGELOG SPLIT MARKER -->
+
 [1.0.1](https://github.com/conductorphp/conductor-drupal-platform-support/compare/1.0.0...1.0.1) (2026-06-25)
 
 ### Bug Fixes
