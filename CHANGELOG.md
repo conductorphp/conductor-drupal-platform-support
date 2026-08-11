@@ -1,3 +1,10 @@
+[4.1.1](https://github.com/conductorphp/conductor-drupal-platform-support/compare/4.1.0...4.1.1) (2026-08-11)
+
+### Bug Fixes
+* to phpunit 13 (CTAP-1226) ([659d7b0](https://github.com/conductorphp/conductor-drupal-platform-support/commit/659d7b07458e934726d3a3b4154cc5cd79d2761d))
+
+<!--- CHANGELOG SPLIT MARKER -->
+
 [4.1.0](https://github.com/conductorphp/conductor-drupal-platform-support/compare/4.0.0...4.1.0) (2026-08-10)
 
 ### Features
